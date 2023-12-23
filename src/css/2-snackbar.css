@@ -1,0 +1,53 @@
+.form {
+    margin-top: 36px;
+    color: #101234;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  form .input {
+    margin-top: 8px;
+    display: block;
+    width: 360px;
+  }
+  
+  form .input:active {
+    border-color: #547b6d;
+  }
+  
+  form .btn {
+    width: 360px;
+  }
+  
+  fieldset {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding: 24px 48px 8px 48px;
+    gap: 48px;
+  
+    width: 360px;
+    border-radius: 4px;
+    border: 1px solid #842121;
+  }
+  
+  fieldset:hover,
+  fieldset:focus {
+    border: 1px solid #000000;
+  }
+  
+  .fieldset-title {
+    padding: 0;
+    letter-spacing: 0.64px;
+  }
+  
+  .label-radio {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .input-radio {
+    width: 19px;
+    height: 19px;
+  }
